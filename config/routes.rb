@@ -7,6 +7,6 @@ Rails.application.routes.draw do
   #   get "/photos" => "photos#index"
   # end
   namespace :api do
-    get "/query_params" => "params_game#query"
+    get "/query_params" => "params_games#query"
   end
 end
